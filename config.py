@@ -18,9 +18,11 @@ VALIDITY_CLEAR_BOX = (638, 774, 850, 835)
 
 NAME_POS = (515, 338)
 ROLE_POS = (515, 420)
-CARD_NO_POS = (643, 558)
-DATE_POS = (643, 681)
-VALIDITY_POS = (643, 802)
+CARD_NO_POS = (610, 545)
+
+DATE_POS = (610, 665)
+
+VALIDITY_POS = (610, 785)
 
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FONT_REGULAR = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
