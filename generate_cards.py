@@ -69,7 +69,53 @@ def clear_area(draw, box):
         draw.text(DATE_POS, data, font=date_font, fill=WHITE)
     if validita:
         draw.text(VALIDITY_POS, validita.upper(), font=validity_font, fill=WHITE)
+def draw_member_data(card, row):
+    draw = ImageDraw.Draw(card)
 
+    nome = str(row.get("nome", "")).strip()
+    cognome = str(row.get("cognome", "")).strip()
+    full_name = f"{nome} {cognome}".strip()
+
+    qualifica = str(row.get("qualifica", "Socio")).strip()
+    numero = str(row.get("numero_tessera", "")).strip()
+    data = str(row.get("data_iscrizione", "")).strip()
+    validita = str(row.get("validita", "")).strip()
+
+    clear_area(draw, NAME_CLEAR_BOX)
+    clear_area(draw, ROLE_CLEAR_BOX)
+
+    name_font = fit_font(
+        draw,
+        full_name,
+        FONT_BOLD,
+        NAME_CLEAR_BOX[2] - NAME_CLEAR_BOX[0] - 20,
+        58,
+        34
+    )
+
+    role_font = fit_font(
+        draw,
+        qualifica,
+        FONT_BOLD,
+        ROLE_CLEAR_BOX[2] - ROLE_CLEAR_BOX[0] - 20,
+        42,
+        26
+    )
+
+    number_font = get_font(FONT_BOLD, 34)
+    date_font = get_font(FONT_BOLD, 34)
+    validity_font = get_font(FONT_BOLD, 34)
+
+    draw.text(NAME_POS, full_name, font=name_font, fill=WHITE)
+    draw.text(ROLE_POS, qualifica, font=role_font, fill=GOLD)
+
+    draw.text((650, 560), numero, font=number_font, fill=WHITE)
+
+    if data:
+        draw.text((650, 680), data, font=date_font, fill=WHITE)
+
+    if validita:
+        draw.text((650, 800), validita.upper(), font=validity_font, fill=WHITE)
 def render_one(template, row, photos_dir, output_dir):
     card = template.copy()
     foto = str(row.get("foto", "")).strip()
