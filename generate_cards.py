@@ -50,23 +50,11 @@ def paste_photo(card, photo_path):
 def clear_area(draw, box):
     draw.rounded_rectangle(box, radius=8, fill=BLACK)
 
-def draw_member_data(card, row):
-    draw = ImageDraw.Draw(card)
-    nome = str(row.get("nome", "")).strip()
-    cognome = str(row.get("cognome", "")).strip()
-    full_name = f"{nome} {cognome}".strip()
-    qualifica = str(row.get("qualifica", "Socio")).strip()
-    numero = str(row.get("numero_tessera", "")).strip().zfill(6)
-    data = str(row.get("data_iscrizione", "")).strip()
-    validita = str(row.get("validita", "")).strip()
-
     clear_area(draw, NAME_CLEAR_BOX)
     clear_area(draw, ROLE_CLEAR_BOX)
-    clear_area(draw, CARD_NO_CLEAR_BOX)
-    if data:
-        clear_area(draw, DATE_CLEAR_BOX)
-    if validita:
-        clear_area(draw, VALIDITY_CLEAR_BOX)
+
+    # Il master è già pulito:
+    # NON cancellare più numero tessera, data e validità)
 
     name_font = fit_font(draw, full_name, FONT_BOLD, NAME_CLEAR_BOX[2] - NAME_CLEAR_BOX[0] - 20, 58, 34)
     role_font = fit_font(draw, qualifica, FONT_BOLD, ROLE_CLEAR_BOX[2] - ROLE_CLEAR_BOX[0] - 20, 42, 26)
