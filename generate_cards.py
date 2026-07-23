@@ -244,25 +244,33 @@ def main():
 
     df = pd.read_csv(csv_path, dtype=str).fillna("")
 
-    required = {"nome", "cognome", "numero_tessera", "qualifica", "foto"}
-missing = required - set(df.columns)
+       
+    required = {
+        "nome",
+        "cognome",
+        "numero_tessera",
+        "qualifica",
+        "foto"
+    }
 
-if missing:
-    raise ValueError(
-        "Colonne mancanti nel CSV: " + ", ".join(sorted(missing))
-    )
+    missing = required - set(df.columns)
 
-output_dir.mkdir(exist_ok=True)
+    if missing:
+        raise ValueError(
+            "Colonne mancanti nel CSV: " + ", ".join(sorted(missing))
+        )
 
-generated = [
-    render_one(template, row, photos_dir, output_dir)
-    for _, row in df.iterrows()
-]
+    output_dir.mkdir(exist_ok=True)
 
-if args.pdf:
-    make_pdf(generated, output_dir / "tessere_soci.pdf")
+    generated = [
+        render_one(template, row, photos_dir, output_dir)
+        for _, row in df.iterrows()
+    ]
 
-print(f"Generate {len(generated)} tessere in {output_dir}")
+    if args.pdf:
+        make_pdf(generated, output_dir / "tessere_soci.pdf")
+
+    print(f"Generate {len(generated)} tessere in {output_dir}")
 
 
 if __name__ == "__main__":
