@@ -1,1 +1,35 @@
-
+nome,cognome,numero_tessera,qualifica,foto,data_iscrizione,validita
+Alberto,Faggiano,0000001,Socio Ordinario,Alberto Faggiano.jpeg,01/08/2026,ANNUALE
+Alessandro,Mansi,0000002,Socio Ordinario,Alessandro Mansi.jpeg,01/08/2026,ANNUALE
+Alessio,Scocca,0000003,Socio Ordinario,Alessio Scocca.jpeg,01/08/2026,ANNUALE
+Alfredo,Furno,0000004,Socio Consigliere,Alfredo Furno.jpeg,01/08/2026,ANNUALE
+Chiara,Delli Noci,0000005,Socio Ordinario,Chiara Delli Noci.jpeg,01/08/2026,ANNUALE
+Ciro,Imparato,0000006,Socio Ordinario,Ciro Imparato.jpeg,01/08/2026,ANNUALE
+Ciro,Improta,0000007,Socio Ordinario,Ciro Improta.jpeg,01/08/2026,ANNUALE
+Domenico,Fragnoli,0000008,Socio Ordinario,Domenico Fragnoli.jpeg,01/08/2026,ANNUALE
+Federico,Libertino,0000009,Socio Ordinario,Federico Libertino.jpeg,01/08/2026,ANNUALE
+Francesco,Tortorelli,0000010,Socio Ordinario,Francesco Tortorelli.jpeg,01/08/2026,ANNUALE
+Fulvio,Esposito,0000011,Socio Ordinario,Fulvio Esposito.jpeg,01/08/2026,ANNUALE
+Fulvio,Nazzaro,0000012,Socio Consigliere,Fulvio Nazzaro.jpeg,01/08/2026,ANNUALE
+Gianfranco,Stanzione,0000013,Socio Ordinario,Gianfranco Stanzione.jpeg,01/08/2026,ANNUALE
+Giorgio,Meneguzzi,0000014,Socio Ordinario,Giorgio Meneguzzi.jpeg,01/08/2026,ANNUALE
+Giuseppe,Cintio,0000015,Socio Ordinario,Giuseppe Cintio.jpeg,01/08/2026,ANNUALE
+Luciano,Altieri,0000016,Socio Consigliere,Luciano Altieri.jpeg,01/08/2026,ANNUALE
+Luigi,Fioretti,0000017,Socio Ordinario,Luigi Fioretti.jpeg,01/08/2026,ANNUALE
+Marco,Dili,0000018,Socio Ordinario,Marco Dili.jpeg,01/08/2026,ANNUALE
+Massimo,Clemente,0000019,Socio Consigliere,Massimo Clemente.jpeg,01/08/2026,ANNUALE
+Massimo,D'Aiello,0000020,Socio Ordinario,Massimo D'Aiello.jpeg,01/08/2026,ANNUALE
+Mattia,Buoninfante,0000021,Socio Ordinario,Mattia Buoninfante.jpeg,01/08/2026,ANNUALE
+Maurizio,Giuri,0000022,Socio Ordinario,Maurizio Giuri.jpeg,01/08/2026,ANNUALE
+Mimmo,Cortese,0000023,Socio Ordinario,Mimmo Cortese.jpeg,01/08/2026,ANNUALE
+Natascia,Anastasio,0000024,Socio Consigliere,Natascia Anastasio.jpeg,01/08/2026,ANNUALE
+Nicola,Buoninfante,0000025,Socio Ordinario,Nicola Buoninfante.jpeg,01/08/2026,ANNUALE
+Oreste,Cardellicchio,0000026,Socio Consigliere,Oreste Cardellicchio.jpeg,01/08/2026,ANNUALE
+Riccardo,Cioffi,0000027,Socio Ordinario,Riccardo Cioffi.jpeg,01/08/2026,ANNUALE
+Roberto,Tozzi,0000028,Socio Ordinario,Roberto Tozzi.jpeg,01/08/2026,ANNUALE
+Salvatore,Vitiello,0000029,Socio Ordinario,Salvatore Vitiello.jpeg,01/08/2026,ANNUALE
+Stefano,Tozzi,0000030,Socio Ordinario,Stefano Tozzi.jpeg,01/08/2026,ANNUALE
+Vincenzo,Cimmino,0000031,Socio Ordinario,Vincenzo Cimmino.jpeg,01/08/2026,ANNUALE
+Vincenzo,Puzone,0000032,Socio Ordinario,Vincenzo Puzone.jpeg,01/08/2026,ANNUALE
+Vincenzo,Riccio,0000033,Socio Consigliere,Vincenzo Riccio.jpeg,01/08/2026,ANNUALE
+Walter,Scognamiglio,0000034,Socio Ordinario,Walter Scognamiglio.jpeg,01/08/2026,ANNUALE
