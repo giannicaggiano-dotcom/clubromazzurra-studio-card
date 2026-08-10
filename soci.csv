@@ -1,14 +1,14 @@
-nome,cognome,numero_tessera,qualifica,foto
-Antonio,Dello Iacono,0000078,Socio,Antonio Dello Iacono.jpg
-Aurora,Arenzulli,0000079,Socio,Aurora Arenzulli.jpg
-Davide,D'Acunto,0000080,Socio,Davide D'Acunto.jpg
-Emanuele,Giuseppino,0000081,Socio,Emanuele Giuseppino.jpg
-Fabrizio,Dell'Orefice,0000082,Socio,Fabrizio Dell'Orefice.jpg
-Federico,Milano,0000083,Socio,Federico Milano.jpg
-Geppy,Di Stasio,0000084,Socio,Geppy Di Stasio.jpg
-Giancarlo,Milano,0000085,Socio,Giancarlo Milano.jpg
-Luigi,Sorrentino,0000086,Socio,Luigi Sorrentino.jpg
-Marco,D'Acunto,0000087,Socio,Marco D'Acunto.jpg
-Nicola,Spinelli,0000088,Socio,Nicola Spinelli.jpg
-Valentino,Lenza,0000089,Socio,Valentino Lenza.jpg
-Vincenzo,Giuseppino,0000090,Socio,Vincenzo Giuseppino.jpg
+nome,cognome,numero_tessera,qualifica,data_iscrizione,validita,foto
+Antonio,Dello Iacono,0000078,Socio,01/08/2026,ANNUALE,Antonio Dello Iacono.jpg
+Aurora,Arenzulli,0000079,Socio,01/08/2026,ANNUALE,Aurora Arenzulli.jpg
+Davide,D'Acunto,0000080,Socio,01/08/2026,ANNUALE,Davide D'Acunto.jpg
+Emanuele,Giuseppino,0000081,Socio,01/08/2026,ANNUALE,Emanuele Giuseppino.jpg
+Fabrizio,Dell'Orefice,0000082,Socio,01/08/2026,ANNUALE,Fabrizio Dell'Orefice.jpg
+Federico,Milano,0000083,Socio,01/08/2026,ANNUALE,Federico Milano.jpg
+Geppy,Di Stasio,0000084,Socio,01/08/2026,ANNUALE,Geppy Di Stasio.jpg
+Giancarlo,Milano,0000085,Socio,01/08/2026,ANNUALE,Giancarlo Milano.jpg
+Luigi,Sorrentino,0000086,Socio,01/08/2026,ANNUALE,Luigi Sorrentino.jpg
+Marco,D'Acunto,0000087,Socio,01/08/2026,ANNUALE,Marco D'Acunto.jpg
+Nicola,Spinelli,0000088,Socio,01/08/2026,ANNUALE,Nicola Spinelli.jpg
+Valentino,Lenza,0000089,Socio,01/08/2026,ANNUALE,Valentino Lenza.jpg
+Vincenzo,Giuseppino,0000090,Socio,01/08/2026,ANNUALE,Vincenzo Giuseppino.jpg
